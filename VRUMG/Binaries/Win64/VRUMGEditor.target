@@ -1,0 +1,45 @@
+{
+	"TargetName" : "VRUMGEditor",
+	"Platform" : "Win64",
+	"Configuration" : "Development",
+	"BuildId" : "4a4277d3-9135-4af6-a92f-ac54fcfd940d",
+	"Version" : 
+	{
+		"MajorVersion" : 4,
+		"MinorVersion" : 11,
+		"PatchVersion" : 2,
+		"Changelist" : 2946394,
+		"IsLicenseeVersion" : 0,
+		"BranchName" : "++UE4+Release-4.11"
+	},
+	"BuildProducts" :
+	[
+		{
+			"Path" : "$(ProjectDir)\\Plugins\\VRUMGPlugin\\Binaries\\Win64\\UE4Editor-VRUMGPlugin.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Plugins\\VRUMGPlugin\\Binaries\\Win64\\UE4Editor-VRUMGPlugin.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Plugins\\VRUMGPlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\UE4Editor-VRUMGPlugin.lib",
+			"Type" : "ImportLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-VRUMG.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-VRUMG.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\UE4Editor-VRUMG.lib",
+			"Type" : "ImportLibrary"
+		}
+	],
+	"RuntimeDependencies" :
+	[
+	]
+}
